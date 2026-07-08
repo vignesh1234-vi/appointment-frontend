@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: appointment-frontend
-        image: <+artifact.image>:<+artifact.tag>
+        image: vigneshlucky000/harness
         ports:
         - containerPort: 80
